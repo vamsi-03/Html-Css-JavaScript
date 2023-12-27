@@ -1,0 +1,1221 @@
+body{
+   overflow-x: hidden;
+   /* padding-right: -2rem; */
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header
+{
+    height: auto;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+
+}
+.headerLogo
+{
+    height: auto;
+    width: 15%; 
+    margin-left: 7rem;
+}
+#navElements
+{
+    height: 80%;
+    width: 40%;
+    margin-left: 20%;
+    /* background-color: whitesmoke; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#navElements li
+{
+    height: auto;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 0.5rem;
+    /* background-color: yellowgreen; */
+}
+#navElements li a
+{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    opacity: 0.6;
+}
+#navElements li a:hover
+{
+    opacity: 1;
+}
+.borNav
+{
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    padding: 0rem 1rem;
+}
+#navFont
+{
+    font-size: 1.4rem;
+}
+#navBtn
+{
+    height: 100%;
+    width: 30%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    align-items: center;
+}
+#btn
+{
+    height: 3rem;
+    width: 7rem;
+    padding: 1rem 1rem;
+    border-radius: 3rem;
+    outline: 0;
+    font-size: 0.9rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.btn1
+{
+    margin-left: 1rem;
+    background-color: transparent;
+    color: gray;
+    border: none;
+}
+.btn1:hover
+{
+    background-color: lavender;
+}
+.btn2
+{
+    margin-left: 2rem;
+    background-color: transparent;
+    color: #639ed8;
+    border: 1px solid #639ed8;
+}
+.btn2:hover
+{
+    background-color: #E0F4FF;
+}
+
+/* css code for home page */
+
+#homeSection
+{
+    height: auto;
+    width: 100%;
+    display: flex;
+    padding-left: -2rem;
+    /* background-color: #0c0908; */
+}
+#formSection
+{
+    height: auto;
+    width: 50%;
+}
+#imgSection
+{
+    height: auto;
+    width: 50%;
+    /* background-color: lightblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#imgSection img
+{
+    height: 70%;
+    width: 100%;
+}
+.formH1
+{
+    font-size: 3.5rem;
+    font-weight: 120;
+    color: #b24020;
+    padding-top: 3rem;
+    padding-left:  6rem;
+    letter-spacing: 1.5px;
+}
+#formDiv
+{
+    height: 45%;
+    width: 80%;
+    /* background-color: wheat; */
+    margin-left: 6rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.inpOne
+{
+    height: 25%;
+    width: 100%;
+    /* background-color: yellowgreen; */
+    margin-top: 1rem;
+}
+.inpOne label
+{
+    font-size: 1rem;
+}
+.inpOne input
+{
+    height: 4rem;
+    width: 80%;
+    border-radius: 0.5rem;
+    outline: 0;
+    cursor: pointer;
+    border: 2px solid gray;
+    margin-top: 0.5rem;
+    padding-left: 2rem;
+    font-size: 1.2rem;
+}
+.inpOne button
+{
+    color: #0a66c2;
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+    position: absolute;
+    line-height: 5rem;
+    margin-left: -15%;
+    cursor: pointer;
+}
+.inpOne input:hover
+{
+    border-radius: 3px solid black;
+}
+.formHref
+{
+    position: relative;
+    color: #639ed8;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.submit
+{
+    position: relative;
+    height: auto;
+    width: 80%;
+    border-radius: 3rem;
+    /* outline: 0; */
+    background-color: #0a66c2;
+    color: white;
+    font-size: 1.2rem;
+    letter-spacing: 0.2px;
+    border: none;
+    cursor: pointer;
+    top: 2rem;
+    padding: 1rem;
+}
+.submit:hover
+{
+    background-color: #0C356A;
+}
+#googleBtnSection
+{
+    position: relative;
+    height:auto;
+    width: 80%;
+    margin-left: 6rem;
+    /* background-color: aquamarine; */
+    margin-top: -7%;
+}
+
+#googleBtnSection p
+{
+    width: 80%;
+}
+#googleBtnSection p a
+{
+    text-decoration: none;
+    padding-bottom:3rem;
+}
+#googleBtnSection p a:hover
+{
+    text-decoration: underline
+}
+.btnGoog
+{
+    height: 3rem;
+    width: 80%;
+    border-radius: 3rem;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    letter-spacing: 0.2px;
+}
+.btnGoog:hover
+{
+    background-color: #E0F4FF;
+    text-decoration: underline;
+}
+
+#span{
+    margin-bottom:-2rem;
+    padding-bottom: -2rem;
+}
+
+
+
+/* Second Box CSS */
+/* css code for section-2 */
+
+#sectionTwo
+{
+    height: auto;
+    width: 100%;
+    display: flex;
+    padding-top: 10rem;
+}
+#subSecOne
+{
+    height: auto;
+    width: 45%;
+    /* background-color: wheat; */
+    padding-left:6rem;
+}
+#sectionTwo #subSecOne h1{
+    margin-top: 2.5%;
+    padding-left:2rem;
+    padding-right:3rem;
+    font-size: 3rem;
+}
+#subSecTwo
+{
+    padding: 0 3rem;
+    width: 55%;
+    /* background-color: #0a66c2; */
+    /* padding-top: 3rem; */
+    padding-left:3rem;
+}
+#subSecTwo button
+{
+    background-color: white;
+    /* border: none; */
+    border: 0.3px solid black;
+    padding: 1rem 2rem;
+    margin: 0.5rem 0.15rem;
+    font-size: 1rem;
+    border-radius: 3rem;
+    cursor: pointer;
+    font-weight: 50;
+}
+.active
+{
+    border-color: #0a66c2;
+    color: #0a66c2;
+}
+.active:hover
+{
+    background-color: lightcyan;
+}
+#subSecTwo button:hover
+{
+    background-color: lavender;
+}
+
+/* End of Second Box CSS */
+
+
+
+
+
+/* Fourth Box */
+
+#sectionfour{
+    width: 100%;
+    height:auto;
+    margin:14rem 0 2rem 0 ;
+    background-color: #f1ece5;
+    display: flex;
+}
+#sectionfour #left{
+    width: 40%;
+    padding-left: 6rem;
+}
+#sectionfour #right{
+    padding-top: 8%;
+    padding-left: 6rem;
+    width: 60%;
+}
+
+#sectionfour #left p{
+    padding: 5% 22% 0% 5%;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #b24020;
+    
+}
+
+#sectionfour #right .post
+{
+    border-radius: 50px;
+    padding: 2% 3.5%;
+    border-color: #0a66c9;
+    color: #0a66c9;
+    font-size: medium;
+}
+#sectionfour #right .post:hover{
+    background-color:#cee7f3;
+}
+
+   
+
+
+/* End of Fourth Box */
+
+
+
+/* CSS for Fifth Box */
+
+#sectionfive{
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+
+#sectionfive #subSecOne,
+#sectionfive #subSecTwo{
+    width: 50%;
+}
+#sectionfive #subSecOne{
+    padding-right:6rem;
+}
+#sectionfive #subSecOne h1{
+    font-size: 300%;
+    font-weight: 100;
+}
+#subSecTwo
+{
+
+    justify-content: space-around;
+}
+#subSecTwo ul
+{
+    display: flex;
+    justify-content: space-between;
+}
+#sectionfive .subSecTwo button{
+
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#sectionfive #subSecOne h5{
+    
+    /* letter-spacing: 1rem; */
+    margin-top: -1rem;
+    font-size: 120%;
+    font-weight: 100;
+}
+/* End of Fifth Box */
+
+
+
+
+
+/* Sixth Box */
+
+#sectionsix{
+    display: flex;
+    background-color: #F3F2F0;
+    padding-bottom: 6rem;
+}
+
+#sectionsix #subSecOne{
+    width:60%;
+    padding:0 0 0 0;
+    margin:0 0 0 0;
+    /* background-color: #0c0908; */
+}
+
+#sectionsix #subSecTwo{
+    width: 40%;
+    margin-left:2rem;
+    margin-top:5rem;
+}
+#sectionsix #subSecTwo img{
+    width:28rem; 
+    height:28rem;
+}
+
+#sectionsix #subSecone h2 {
+    color:#B24020;
+    padding-left:5rem;
+    padding-top:8rem;
+    font-size: 2.7rem;
+    opacity:0.1rem ;
+}
+
+#sectionsix #subSecone p {
+    color:#373737;
+    padding-left:5rem;
+    font-size:2rem;
+    opacity: 0.5rem;
+}
+
+/* box seven */
+
+.Sectionseven {
+    display: flex;
+    width: 100%;
+    /* flex-direction: row; */
+}
+ 
+.leftsec {
+    padding: 5%;
+    width: 50%;
+    /* background-color: yellow; */
+ 
+}
+ 
+.rightsec {
+    padding: 5%;
+    width: 50%;
+}
+ 
+.sc6limg{
+    padding-left: 5%;
+    padding-top: 10%;
+    padding-bottom:5%;
+    padding-right: 30%;
+}
+ 
+.sc6lheader{
+    font-size: 45px;
+    text-align: left;
+    color: #0c0908;
+    padding-right: 20%;
+ 
+}
+.sc6lbody button
+{
+ 
+    height: 3rem;
+    width: 35%;
+    border-radius: 30px;
+    border: 2px solid #4F4F4F;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.sc6lbody button:hover
+{
+    background-color: lavender;
+}
+
+.sc6rimg{
+    padding-left: 5%;
+    padding-top: 10%;
+    padding-bottom:5%;
+    padding-right: 30%;
+}
+ 
+.sc6rheader{
+    font-size: 45px;
+    text-align: left;
+    color: #0c0908;
+    padding-right: 20%;
+ 
+}
+.sc6rbody #dropDown{
+    height: 3rem;
+    text-align: center;
+    padding-right: 30%;
+    border-color:#4F4F4F;
+    /* text-align: justify; */
+    font-weight: 3rem;
+    font-size: 1rem;
+}
+ 
+
+/*eighth box*/
+
+
+#Sectioneight
+{
+    height: auto;
+    width: 100%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navigationForm
+{
+    height: auto;
+    width: 50%;
+    background-color: #f3f2f0;
+    display: flex;
+    flex-direction: column;
+ 
+}
+#navigationForm h1
+{
+    margin-left: 6rem;
+    font-size: 2.5rem;
+    font-weight: 100;
+    margin-top: 30%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#navigationImage
+{
+    height: auto;
+    width: 50%;
+    display: flex;
+    /* background-color: turquoise; */
+    /* position: relative; */
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+#navigationImage img
+{
+    /* position: absolute; */
+    margin-left: 50%;
+    width: 150%;
+    height: auto;
+}
+#navigationBtnDiv
+{
+    margin-left: 6rem;
+    display: flex;
+    flex-direction: column;
+}
+#navigationBtnDiv button
+{
+    height: 4rem;
+    width: 70%;
+    font-size: 1.2rem;
+    margin-top: 2%;
+    cursor: pointer;
+    border: none;
+    background-color: #eae6df;
+    text-align: left;
+    padding-left: 2rem;
+}
+#navigationBtnDiv button:hover
+{
+    background-color: lightgray;
+}
+#navigationBtnDiv button i
+{
+    float: right;
+    margin-right: 1rem;
+    transform: rotate(90deg);
+    font-size: 1.25rem;
+}
+
+
+/* CSS for Section nine */
+
+#SectionNine{
+    display:flex;
+    width: 100%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+#SectionNine #secone
+{
+    width:30%;
+    position: relative;
+    padding-left:4rem;
+    padding-top:8rem;
+}
+
+#SectionNine #sectwo{
+    width:80%;
+    background-color: #F4FAFF;
+    padding-left:8rem;
+    padding-bottom: 10rem;
+    
+}
+
+#sectwo h1{
+    margin-left: 6rem;
+    font-size: 2.3rem;
+    font-weight: 100;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+
+/* CSS for Section Ten */
+
+/* #SectionTen{
+    margin-top: -4rem;
+
+}
+#Sectionimage {
+    width: 100%;
+    padding-top: 14%;
+    position: relative;
+}
+ 
+#Sectionimage img {
+    width: 100%;
+    height: auto;
+}
+ 
+#overlay-text {
+    position: absolute;
+    top: 18%;
+    left: 8%;
+    right: 10%;
+    font-size: 3.2rem;
+    color:#181819;
+    text-align: left;
+    top:3rem;
+    opacity: 0 rem;
+}
+ 
+.get-started-button {
+    padding-left: 2rem;
+    width:150px;
+    height:50px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+ 
+.get-started-button:hover {
+    background-color: #2980b9;
+} */
+
+
+/* get started section stylings */
+ 
+.get-started{
+  margin-top: 6%;
+  width: 120%;
+  height: 85vh;
+  background-image: url("images/last\ image.png");
+  background-size: cover; /* Cover the entire div */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+  position: relative;
+}
+ 
+.get-started .text {
+  position: absolute;
+  top: 0%;
+  left: 6%;
+  color: black;
+  margin-bottom: 0;
+  font-size: 3.5rem;
+  font-weight: 200;
+  padding-top: -20%;
+  margin-top: -2%;
+  padding-right: 20%;   
+}
+ 
+.get-started-btn {
+  position: absolute;
+  top: 25%;
+  left: 6%;
+  margin-bottom: 4%;
+  border-radius: 50px;
+  padding: 1% 2%;
+  background-color: #0a66c2;
+  color: white;
+  font-size: medium;
+}
+ 
+ 
+
+
+
+/* CSS for Footer */
+
+
+footer {
+    background-color: #F3F2F0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+#footer-section1{
+    width:20%;
+}
+#footer-section2{
+    width:80%;
+    display: inline-flex;
+}
+
+  .footer-section {
+    width: 18%;
+  }
+
+  .footer-section h2 {
+    /* border-bottom: 1px solid /#fff; */
+    padding-bottom: 10px;
+    font-size: medium;
+  }
+
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-links a:hover{
+    color: blue;
+    text-decoration: underline;
+  }
+  .footer-links li {
+    margin-bottom: 8px;
+  }
+
+  .footer-links a {
+    color:#61616E;
+    text-decoration: none;
+  }
+
+
+
+/* Last Section */
+
+.copy-right{
+  margin-top: 7px;
+}
+ 
+.copy-right img{
+ 
+  width:6%;
+  margin-left: 7%;
+  float: left;
+  margin-top: 0;
+ 
+}
+ 
+.copy-right p{
+  margin-top: 0;
+}
+ 
+.copy-right a, #language{
+  margin-left: 5px;
+  margin-right: 5px;
+  text-decoration: none;
+  font-size: small;
+ 
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji',
+  'Segoe UI Symbol', 'Lucida Grande', 'Helvetica', 'Arial', 'sans-serif';
+ 
+  color: #666666;
+  font-weight: 500;
+ 
+ 
+}
+
+
+@media(max-width:766px)
+{
+    header{
+        margin-left: 0 0 0 0;
+        padding:0 0 0 0;
+
+    }
+    header #navElements
+    {
+        display: none;
+    }
+    .headerLogo{
+        margin: 0 0 0 0;
+        padding-right:2rem;
+        width:30%;
+    }
+    header #navBtn{
+        padding-left : 3rem;
+    }
+    header img{
+        width:max-content;
+    }
+
+
+    /* home section */
+
+    #homeSection{
+        flex-direction: column;
+    }
+    #homeSection #formSection{
+        width:100%;
+        padding:5% 0 0 0;
+        margin:0 0 0 0;
+    }
+    .formH1{
+        width:100%;
+        padding:0 0 0 0;
+        margin:0 0 0 0;
+        font-size: 3rem;
+    }
+    #formDiv, #formDiv .inpOne{
+        width:100%;
+        padding:5% 0 0 0;
+        margin:0 0 0 0;
+    }
+    .formHref{
+        width:100%;
+        padding:2% 0 0 0;
+        margin:0 0 0 0;
+    }
+    .submit{
+        width:80%;
+        padding:2% 0 2% 0;
+        margin:0 0 8rem 0;
+    }
+
+    #googleBtnSection{
+        width:100%;
+        padding:0 0 0 0;
+        margin:-5rem 0 0 0;
+    }
+
+    #span{
+        width:100%;
+        padding:0 0rem 0 -4rem;
+        margin:0 10rem 0 -4rem;
+    }
+
+    .btnGoog{
+        margin:0 0 2rem 0;
+    }
+
+    #imgSection{
+        width:100%;
+        padding:0 0 0 0;
+        margin:0 0 0 0
+    }
+
+
+
+    /* section two and section three */
+
+    #sectionTwo{
+        flex-direction:column;
+        margin-top:-5rem;
+    }
+    #subSecOne{
+        width:100%;
+        margin:-2rem 0 0 0;
+        padding:0 0 0 0;
+    }
+    #subSecTwo{
+        width:100%;
+        margin:-1rem 0 0 0;
+        padding:2rem 0 0 0;
+    }
+
+    #sectionTwo #subSecOne h1{
+        font-weight: 500;
+        font-size:150%;
+        padding: 0 0 0 0;
+    }
+    #subSecTwo h1{
+        font-size:100%;
+    }
+
+    
+    /* section four */
+
+    #sectionfour{
+        flex-direction: column;
+        margin-top: 15%;
+    }
+   #sectionfour #left{
+        width:100%;
+        margin:0 0 0 0;
+        padding:0 0 0 0;
+    }
+    #sectionfour #left p{
+        width:100%;
+        margin:0 0 0 0;
+        padding:0 0 0 0;
+    }
+    #sectionfour #right{
+        width:100%;
+        margin:2rem;
+        padding:0 0 0 0;
+    }
+
+
+    /* mediaquery for Fifth Box */
+
+    #sectionfive{
+        flex-direction: column;
+        margin:0 0 0 0;
+        padding:0 0 0 0;
+    }
+    #sectionfive #subSecOne{
+        width:100%;
+        margin:0;
+        padding:0;
+    }
+    #sectionfive #subSecOne h1{
+        width:100%;
+        font-size: 150%;
+    }
+    #sectionfive #subSecOne h5{
+        width:100%;
+        margin:0 0 2rem;
+        font-size: 74%;
+        padding:0;
+    }
+    #sectionfive #subSecTwo{
+        width:100%;
+        margin:0;
+        padding:0;
+    }
+    #subSecTwo button{
+        padding:0.6rem 1.1rem;
+        /* margin: 0.4rem 0.09rem; */
+    }
+
+
+
+    /* sixth Box */
+
+    #sectionsix{
+        flex-direction: column-reverse;
+        padding:0;
+        margin:3% 0 0 0;
+    }
+    #sectionsix #subSecTwo{
+        width:100%;
+        padding:3rem;
+        margin:0;
+    }
+    #sectionsix #subSecTwo img{
+       width:15rem;
+       height:15rem;
+    }
+    #sectionsix #subSecOne{
+        width:100%;
+        padding:0;
+        margin:0;
+    }
+    #sectionsix #subSecOne h2{
+        width:100%;
+        padding:0;
+        margin:0;
+        font-size: 1.5rem;
+    }
+    #sectionsix #subSecOne p{
+        width:100%;
+        padding:2% 0 2% 0;
+        margin:0;
+        font-size:1rem;
+    }
+
+
+
+    /*Section seven */
+    .Sectionseven{
+        flex-direction:column;
+        padding:0;
+        margin:0 0 0 0;
+    }
+    .Sectionseven .leftsec{
+        width:100%;
+        padding:0;
+        margin:0;
+    }
+
+    .Sectionseven .rightsec{
+        width: 100%;
+        padding:0;
+        margin:0;
+    }
+
+    .Sectionseven .leftsec .sc6limg, .Sectionseven .rightsec .sc6rimg{
+        padding:10% 0 0 0;
+        margin:0;
+        width:100%;
+    }
+    .Sectionseven .leftsec .sc6limg img,.Sectionseven .rightsec .sc6rimg img{
+        padding:0 0 0 0;
+        margin:0;
+        width:60%;
+    } 
+
+    .Sectionseven .leftsec .sc6lheader, .Sectionseven .rightsec .sc6rheader{
+        width:100%;
+        padding:0;
+        font-size:150%;
+    }
+
+    .Sectionseven .leftsec .sc6lbody{
+        width:100%;
+        padding-left:1rem;
+    }
+
+    .sc6lbody button
+    {
+        height:3rem;
+        width:30%;
+        font-size:0.8rem;
+        
+    }
+
+    .Sectionseven .rightsec .sc6rbody{
+        width:100%;
+        padding:1rem;
+    }
+
+
+
+    /*box eight */
+
+    #Sectioneight{
+        flex-direction: column;
+        padding:0;
+        margin:3% 0 0 0;
+    }
+
+    #Sectioneight #navigationForm{
+        width: 100%;
+        padding:0;
+        flex-direction: column;
+        margin:0;
+        
+    }
+    #Sectioneight #navigationForm h1{
+        width:100%;
+        padding:0;
+        margin:8% 0;
+        font-size: 1.6rem;
+    }
+    #Sectioneight #navigationForm #navigationBtnDiv{
+        width: 100%;
+        padding: 0;
+        margin:0;
+    }
+
+    #Sectioneight #navigationImage{
+        display: none;
+    }
+
+    /*section 9 */
+
+    #SectionNine{
+        flex-direction: column;
+        margin-top:8%;
+    }
+    #SectionNine #secone{
+        width:100%;
+        padding:0;
+        margin:0%;
+    }
+    #SectionNine #secone iframe{
+        width:90%;
+        height:90%;
+        padding:1rem;
+    }
+    #SectionNine #sectwo{
+        width:100%;
+        padding:0;
+        margin:-25% 0;
+    }
+    #SectionNine #sectwo h1{ 
+        width:100%;
+        padding:0 0 0 1rem;
+        margin:0%;
+        font-size: 150%;
+        padding-bottom: 2rem;
+    }
+
+    /*SectionTen*/
+
+    .get-started{
+        margin-top: 10%;
+        background-image: none;
+        padding-top: 40%;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        height: 40vh;
+    }
+ 
+    .get-started .text {
+        position: absolute;
+        top: 20%;
+        left: 2%;
+        margin-bottom: 0;
+        font-size: 2.3rem;
+        font-weight: 100;
+        padding-right: 5%;
+    }
+ 
+    .get-started-btn {
+        position: absolute;
+        top: 30%;
+        margin-top:10%;
+        left: 3%;
+        padding: 3% 6%;
+        border-radius: 50px;
+    }
+
+
+    /* footer */
+    footer{
+        flex-direction: column;
+        padding:0;
+        margin:-8rem 0 0 0;
+    }
+
+    .footer-sectionone{
+        width:100%;
+        padding:1rem;
+        margin:0;
+    }
+    .footer-sectionone .footer-links img{
+        width:27%;
+        height:30%;
+    
+    }
+
+    .footer-section{
+        width:100%;
+        padding-left: 1rem;
+    }
+
+
+    /*last */
+
+    .copy-right{
+        margin:0;
+    }
+    .copyright img{
+        width:50%;
+        margin:0;
+        float:left;
+    }
+    .copy-right a, #language{
+        margin:0;
+        text-decoration: none;
+        font-size: small;
+       
+        font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Lucida Grande', 'Helvetica', 'Arial', 'sans-serif';
+       
+        color: #666666;
+        font-weight: 500;
+      }
+
+    }
+
+    
+
+
+
+
+    
+

@@ -1,0 +1,80 @@
+Morning Sesstion:
+
+---->   var, let, const... where we use and do some programs
+
+exact difference between them.. why we need different set of variables
+
+----------------------------------------------------------------------------------
+
+The var keyword was used in all JavaScript code from 1995 to 2015.
+
+The let and const keywords were added to JavaScript in 2015.
+
+The var keyword should only be used in code written for older browsers.
+
+
+1. Always declare variables
+
+2. Always use const if the value should not be changed
+
+3. Always use const if the type should not be changed (Arrays and Objects)
+
+4. Only use let if you can't use const
+
+5. Only use var if you MUST support old browsers.
+
+
+JavaScript can handle many types of data, but for now, just think of numbers and strings.
+
+Strings are written inside double or single quotes. Numbers are written without quotes.
+
+If you put a number in quotes, it will be treated as a text string.
+
+
+Re-Declaring JavaScript Variables:
+
+If you re-declare a JavaScript variable declared with var, it will not lose its value.
+
+You cannot re-declare a variable declared with let or const.
+
+
+
+-------------------------------------------------------------------------------------
+---> why meta is used in head and all the scripts, styles are placed in head only... why not in other parts..
+
+
+
+Page Loading and Rendering:
+
+Browsers typically load and parse the content of the <head> section before they start rendering the 
+main content of the page. This means that critical resources, such as stylesheets and scripts, 
+are loaded early in the process, allowing the browser to start rendering the page more quickly.
+
+Search Engine Optimization (SEO):
+
+Search engines often prioritize the content found in the <head> section when indexing web pages. 
+Meta tags, such as <title>, <meta description>, and <meta keywords>, provide information about the page's 
+content to search engines, influencing how the page appears in search results.
+
+Asynchronous Loading:
+
+Placing scripts in the <head> section allows you to use attributes like async or defer to control 
+how scripts are loaded. This can improve page performance by allowing scripts to load asynchronously or 
+after the HTML has been parsed.
+
+------------------------------------------------------------------------------------------------------------
+tasks:
+
+---> try all the events, create a sample html page and work on it, using buttons...need to explain in the comments, the differences between
+the events....
+
+
+--> string methods...create another html page and work on all string methods.
+
+--> string search methods....
+
+--> what is ES6, difference it brings to the javascript...why we are using it----learning part
+
+--> number methods...learning
+
+--> 

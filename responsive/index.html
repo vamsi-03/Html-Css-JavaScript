@@ -1,0 +1,407 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/linkedIn_logo.png" alt="Linked-In Logo" class="headerLogo">
+        <div id="navElements">
+                <li>
+                    <a href="">
+                        <i class="fa-solid fa-newspaper" id="navFont"></i>
+                        <p style="margin-top: -1%;">Artciles</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa-solid fa-person" id="navFont"></i>
+                        <p style="margin-top: -1%;">People</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa-solid fa-newspaper" id="navFont"></i>
+                        <p style="margin-top: -1%;">Learning</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa-solid fa-person" id="navFont"></i>
+                        <p style="margin-top: -1%;">Jobs</p>
+                    </a>
+                </li>
+                <li class="borNav">
+                    <a href="">
+                        <i class="fa-solid fa-newspaper" id="navFont"></i>
+                        <p style="margin-top: -1%;">Get the app</p>
+                    </a>
+                </li>
+        </div>
+        <div id="navBtn">
+            <button id="btn" class="btn1">
+                Join&nbsp;now
+            </button>
+            <button id="btn" class="btn2">
+                Sign&nbsp;in
+            </button>
+        </div>
+    </header>
+
+
+    <section id="homeSection">
+        <div id="formSection">
+            <h1 class="formH1">
+                Discover what your <br> network can do for you
+            </h1>
+
+            <form id="formDiv">
+                <div class="inpOne">
+                    <label for="name">Email or phone</label>
+                    <br>
+                    <input type="text" name="username" id="username" required>
+                </div>
+                <div class="inpOne">
+                    <label for="name">Password</label>
+                    <br>
+                    <input type="password" name="password" id="password" required>
+                    
+                    <button type="button">Show</button>
+                    <button type="button" id="hideInput" style="display: none;" onclick="callHide()">Hide</button>
+                </div>
+                <a href="" class="formHref">Forgot password?</a>
+                <input type="submit" value="Sign in" class="submit" id="submitButton">
+            </form>
+            
+
+            <div id="googleBtnSection">
+                <p>
+                    By clicking Continue, you agree to LinkedIn’s <a href="#" >User Agreement,</a> <a href="#" >Privacy Policy,</a> and <a href="">Cookie Policy</a>.
+                </p>
+            </div>
+
+            <div id="span">
+                <span style="display: flex;flex-direction: row;align-items: center;justify-content: center;width: 70%;margin-left: 5rem;position: relative;">
+                    <hr style="width: 40%;height: 0.2%;">
+                    <h3 style="width: 0%;display: flex;align-items: center;justify-content: center;">or</h3>
+                    <hr style="width: 40%;height: 0.2%;">
+                </span>
+            </div>
+                <button class="btnGoog"><img src="images/googleIcon.png " height="15px" width="15px" style="margin-left: -4%;position: absolute;" alt="Google Icon">Continue with Google</button>
+                <button class="btnGoog">New to LinkedIn? Join now</button>
+            </div>
+        </div>
+
+        <div id="imgSection" style="padding-top: 3rem;">
+            <img src="images/image-1.png" alt="">
+        </div>
+    </section>
+
+
+        <!-- section 2 /...... -->
+    <section id="sectionTwo">
+        <div id="subSecOne">
+            <h1>
+                Explore  collaborative  articles
+            </h1>
+            <p>
+                We’re unlocking community knowledge in a new way. Experts add insights directly into each article, started with the help of AI.
+            </p>
+        </div>
+        <div id="subSecTwo">
+            <button>Marketing</button>
+            <button>Public Administration</button>
+            <button>HealthCare</button>
+            <button>Engineering</button>
+            <button>IT Service</button>
+            <button>Sustainability</button>
+            <button>Bussiness Administration</button>
+            <button>Telecommunications</button>
+            <button>HR Management</button>
+            <button class="active">Show all</button>
+        </div>
+    </section>
+
+
+         <!-- section 3 /...... -->
+         <section id="sectionTwo">
+            <div id="subSecOne">
+                <h1>
+                    Find the right job or  internship for you
+                </h1>
+            </div>
+            <div id="subSecTwo">
+                <h1>SUGGESTED SEARCHES</h1>
+                <button>Engineering</button>
+                <button>Business Development</button>
+                <button>Finance</button>
+                <button>Administrative Assistant</button>
+                <button>Retail Associate</button>
+                <button>Custom Service</button>
+                <button>Operation</button>
+                <button>Information Technology</button>
+                <button>Marketing</button>
+                <button>Human Resources</button><br>
+                <button>Show more <i class="fa-solid fa-angle-down" style="margin-left: 5px;margin-top: 2px;"></i></button>
+            </div>
+        </section>
+
+
+    
+         <!-- section 4 ...... -->
+
+         <section id="sectionfour">
+            <div id="left">
+                <p>Post your job for millions of people to see</p>
+            </div>
+
+            <div id="right">
+                <button class = "post">Post a job</button>
+            </div>
+
+        </section>
+
+        <!-- section 5 /...... -->
+
+        <section id="sectionfive">
+            <div id="subsecOne">
+                <h1>
+                    Discover the best software tools
+                </h1>
+                <h5>Connect with buyers who have first-hand experience to find the best products for you</h5>
+            </div>
+            <div id="subSecTwo">
+                <h1 style="margin-top: -2.5%;font-size: 1rem;color:#666666 ">SUGGESTED TOOLS</h1>
+                <button>E-Commerce Platforms</button>
+                <button>CRM Software</button>
+                <button>Human Resource Management</button>
+                <button>Recruiting Software</button>
+                <button>Sales Intelligence Software</button>
+                <button>Project Management Software</button>
+                <button>Help Desk Software</button>
+                <button>Social Networking Software</button>
+                <button>Desktop Publishing Software</button>
+                <button style="background-color: #FFFFFF; color:#0A66C2; border-color: #0A66C2;;">Show all <i class="fa-solid fa-angle-down" style="margin-left: 5px;margin-top: 2px; "></i></button>
+            </div>
+        </section>
+    
+        
+        <!-- section 6 /...... -->
+
+       <section id="sectionsix">
+            <div id="subSecOne">
+              <h2>Let the right people know you’re open to work</h2>
+              <p>With the Open To Work feature, you can privately tell recruiters or publicly share with the LinkedIn community that you are looking for new job opportunities<p>
+            </div>
+            <div id="subSecTwo">
+                <img src="images/image-2.png" alt="image-2">
+            </div>
+       </section>
+
+       
+       <!-- section 7 /...... -->
+    <div class = "Sectionseven">
+        <div class = "leftsec">
+
+            <div class = "sc6limg">
+                <img src="images/image3.png" alt="blog6.1">
+            </div>
+            <p class = "sc6lheader">
+                Connect with people who can help
+            </p>
+           
+            <p class = "sc6lbody">
+                <button href="#Find people you know">Find people you know</button>                
+            </p>
+        </div>
+
+        <div class = "rightsec">
+            <div class = "sc6rimg">
+                <img src="images/image-4.png" alt="blog6.2">
+            </div>
+           
+            <div>
+                <p class = "sc6rheader" style="text-align: left;">
+                    Learn the skills you need to succeed
+                </p>
+            </div>
+               
+            <div class = "sc6rbody">
+                <select name="dropDown" id="dropDown">
+                    <option value="">Choose a topic to learn about</option>
+                    <option value="">Business Analysis and Strategy</option>
+                    <option value="">Business Software and Tools</option>
+                    <option value="">Career Development</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+        <!-- section 8 /...... -->
+
+    <section id="Sectioneight">
+        <div id="navigationForm">
+            <h1>
+                <span style="color: #b24020;font-weight: bolder;">
+                    Who is LinkedIn for?<br>
+                </span>
+                Anyone looking to navigate their professional life.
+            </h1>
+            <div id="navigationBtnDiv">
+                <button>Find a coworker or classmate <i class="fa-solid fa-angle-up"></i></button>
+                <button>Find a new job <i class="fa-solid fa-angle-up"></i></button>
+                <button>Find a course or training <i class="fa-solid fa-angle-up"></i></button>
+            </div>
+        </div>
+            <div id="navigationImage">
+             <img src="images/image5.jpeg" alt="">
+            </div>
+    </section>
+
+
+
+    <!-- section 9 /...... -->
+
+    <section id="SectionNine">
+        <div id="secone">
+            <iframe src="https://www.youtube.com/embed/IlYUUN8rL_Y?si=nPzZBo6nQ_AGc78Z" 
+                title="YouTube video player" frameborder="0" width="560" height="315" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <div id="sectwo">
+            <h1 style="margin-top: 30%;">
+                <span style="color: #b24020;font-weight: bolder;">In it to chase my dream</span>
+                <br>
+                Check out Gayatri’s story of <br> finding a new job on LinkedIn
+            </h1>
+        </div>
+    </section>
+
+    <!-- section 10 /...... -->
+
+    
+    <div class="get-started">
+        <p class="text"> Join your colleagues, classmates, and friends on LinkedIn. </p> <button class="get-started-btn">Get started</button>
+    </div>
+
+
+    <section id="space">
+    </section>
+    <!-- Footer  -->
+
+
+    <footer>
+        <div class="footer-sectionone">
+          <ul class="footer-links">
+            <li><a><img src="images/link.png"></a></li>
+          </ul>
+        </div>
+    
+        <div class="footer-section">
+          <h2>General</h2>
+          <ul class="footer-links">
+            <li><a href="#">Sign Up</a></li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Developers</a></li>
+          </ul>
+        </div>
+    
+        <div class="footer-section">
+          <h2>Browse LinkedIn</h2>
+          <ul class="footer-links">
+            <li><a href="#">Learning</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Salary</a></li>
+            <li><a href="#">Mobile</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Top Companies Hub</a></li>
+          </ul>
+        </div>
+    
+        <div class="footer-section">
+          <h2>Business Solutions</h2>
+          <ul class="footer-links">
+            <li><a href="#">Talent</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Sales</a></li>
+            <li><a href="#">Learning</a></li>
+          </ul>
+        </div>
+    
+        <div class="footer-section">
+          <h2>Directories</h2>
+          <ul class="footer-links">
+            <li><a href="#">Members</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Companies</a></li>
+            <li><a href="#">Featured</a></li>
+            <li><a href="#">Learning</a></li>
+            <li><a href="#">Posts</a></li>
+            <li><a href="#">Articles</a></li>
+            <li><a href="#">Schools</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">News Letters</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Advice2</a></li>
+            <li><a href="#">People Search</a></li>
+          </ul>
+        </div>
+      </footer>
+
+
+      
+        <section class="copy-right">
+            <img src="images/last-logo.png" alt="">
+                <p class="copyright"> <sub><span>&copy; 2023 </span></sub> <a href="#">About</a>
+               
+                    <a href="#">Accessibility</a>
+                    <a href="#">User Agreement</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Cookie Policy</a>
+                    <a href="#">Copyright Policy</a>
+                    <a href="#">Brand Policy</a>
+                    <a href="#">Guest Controls</a>
+                    <a href="#">Community Guidelines</a>
+ 
+                    <select name="languag" id="language">
+                        <option value="">Language</option>
+                        <option value="">US-English</option>
+                        <option value="">English</option>
+                        <option value="">french</option>
+ 
+                        <option value="">portguese</option>
+                        <option value="">Telugu</option>
+                        <option value="">Greek</option>
+                        <option value="">Arabic</option>
+ 
+                        <option value="">Hindi</option>
+                        <option value="">Maths</option>
+                        <option value="">parsian</option>
+ 
+                    </select>
+                   
+               
+                </p>
+           
+ 
+        </section>
+ 
+        </div>
+    
+</body>
+</html>
